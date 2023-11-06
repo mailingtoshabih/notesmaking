@@ -1,0 +1,53 @@
+.paren {
+    height: 70px;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 20px 0;
+}
+
+.paren :hover{
+    cursor: pointer;
+    padding: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #F7ECDC;
+    transition-duration: 500ms;
+}
+
+.hover{
+    align-items: center;
+    display: flex;
+}
+
+
+.box {  
+    background-color: rgb(255, 153, 153);
+    width : 80px;
+    height: 60px;
+    border-radius: 9999px;
+    padding: 0;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+/* .box {
+    display: flex;
+    width: 55px;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0 20px;
+    border-radius: 100%;
+    background-color: rgb(255, 153, 153);
+} */
+
+.groupname {
+    width: 100%;
+    color: rgb(43, 43, 43);
+    align-content: center;
+}

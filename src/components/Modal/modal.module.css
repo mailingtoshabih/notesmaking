@@ -1,0 +1,61 @@
+.parent{
+    height: 100vh;
+    width : 100%;
+    background-color: rgba(142, 142, 142, 0.195);
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.modal{
+    border: 1px solid black;
+    position: relative;
+    width : 500px;
+    height: 300px;
+    left: 0;
+    right: 0;
+    padding : 20px;
+    background-color: white;
+    border : 1px solid gray;
+    border-radius: 10px;
+    
+}
+
+
+.label{
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.input_parent{
+    display : flex;
+    width : 100%;
+    margin: 20px 0;
+}
+
+input{
+    width : 100%;
+    border-radius: 20px;
+    border : 2px solid gray;
+    font-size: 18px;
+    padding: 10px;
+    outline: none;
+}
+
+
+.modal button{
+    position: absolute;
+    right : 20px;
+    bottom: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+

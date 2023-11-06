@@ -1,0 +1,58 @@
+.parent {
+    width: 25%;
+    height: 100vh;
+    /* padding-left: 20px; */
+    background-color: white;
+}
+
+
+
+.logo {
+    text-align: start;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 10px;
+
+}
+
+
+.btn_parent {
+    /* text-align: center; */
+    padding: 0%;
+}
+
+
+.newnote {
+    cursor: pointer;
+    width: 80%;
+    height: 51px;
+    margin-left: 10px;
+    border-radius: 50px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+
+.groups {
+    margin-top: 10px;
+    height: 100%;
+    margin: 10px 0 0 0;
+}
+
+.groups p {
+    size: 20px;
+    margin-left: 10px;
+    color: gray;
+    font-weight: bold;
+}
+
+
+.modal_open {
+    visibility: visible;
+}
+
+.modal_close {
+    visibility: hidden;
+}
